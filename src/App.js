@@ -4,14 +4,17 @@ import Home from "./components/Home";
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Connect from "./components/Connect"
+import Contact from "./components/Contact"
 function App() {
   return (
     <>
     <Navbar/>
     <Home/>
-    <Projects/>
     <Skills/>
+    <Projects/>
     <Connect/>
+    <hr/>
+    <Contact/>
     </>
   );
 }

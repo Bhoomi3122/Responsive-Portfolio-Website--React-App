@@ -3,15 +3,16 @@
 #connect {
   padding: 2rem; // Increased padding for a more spacious section
   text-align: center;
-  background-color: #f5f5f5; // Light background color to differentiate the section
+  // background-color: #f5f5f5; // Light background color to differentiate the section
 
   h2 {
     margin-bottom: 2rem; // Spacing below the heading
     font-size: 2.5rem; // Font size for prominence
     color: #333; // Dark color for text
     border-bottom: 2px solid #666565; // Simple underline effect
-    // margin-left: 40%;
-    display: inline-block; // Darker color for the heading
+    display: inline-block; // Ensures the underline only spans the width of the text
+    margin-top: 40px; // Margin top
+    padding-bottom: 10px; // Padding to ensure space between text and underline
   }
 
   .connect-list {
@@ -24,7 +25,7 @@
     flex-wrap: wrap; // Allow wrapping to fit different screen sizes
 
     li {
-      margin: 1rem; // Margin around each icon and text
+      margin: 3rem; // Margin around each icon and text
       display: flex;
       flex-direction: column; // Stack icon and text vertically
       align-items: center;
