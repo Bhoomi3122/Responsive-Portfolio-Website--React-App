@@ -10,8 +10,11 @@ function App() {
     <>
     <Navbar/>
     <Home/>
+    <hr/>
     <Skills/>
+    <hr/>
     <Projects/>
+    <hr/>
     <Connect/>
     <hr/>
     <Contact/>

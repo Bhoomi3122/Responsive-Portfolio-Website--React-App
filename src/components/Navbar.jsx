@@ -15,7 +15,7 @@ const NavContent = () => {
       <a href="#connect">Connect</a>
       <a href="#contact">Contact</a>
     </div>
-    <a href="mailto:gargbhoomi01@gmail.com">
+    <a href="https://drive.google.com/file/d/18TNyUHGQ57GHQWvMJF73-LahC9XuRsdk/view?usp=sharing" target="_blank">
       <button>Resume</button>
     </a>
   </>)
